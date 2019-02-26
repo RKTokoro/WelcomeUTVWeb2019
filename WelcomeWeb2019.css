@@ -1,0 +1,126 @@
+/* ここにコメントを書く*/
+
+body {
+  padding-top: 50px;
+  /*background-color: rgba(0,0,0,0.2);*/
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.twitterIcon{
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+.fbIcon{
+  margin-top: 10px;
+  margin-left:10px;
+  margin-right: 10px;
+}
+
+#sakura{
+  width:100%;
+  height: 100%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index: -1;
+}
+
+.about{
+  background-color: rgba(255,255,255,0.3);
+  margin-top: 40px;
+}
+
+.aboutBox{
+  position:relative;
+}
+
+.aboutImg{
+  opacity: 0.3;
+  position:absolute;
+  top:0%;
+  right:10%;
+  max-width: auto;
+  height: 500px;
+}
+
+.aboutMain{
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+
+.aboutMain h1{
+  font-size: 60px;
+}
+
+.aboutParagraph{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.aboutButton{
+  padding-top:20px;
+}
+
+.headGreeting{
+  background-color: rgba(0,0,0,0.3);
+}
+
+.headGreetingTitle h1{
+  font-weight: bold;
+}
+
+.headGreetingPhoto{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.headGreetingPhotoText{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.headGreetingPhotoText p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.headGreetingText{
+  background-color: rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.eventsTitle h1{
+  font-weight: bold;
+}
+
+.accessMain{
+  margin-bottom: 50px;
+  background-color: rgba(0,0,0,0.25);
+}
+
+.accessTitle{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.accessTitle h1{
+  font-weight: bold;
+}
+
+.accessMap{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.accessAddress{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
