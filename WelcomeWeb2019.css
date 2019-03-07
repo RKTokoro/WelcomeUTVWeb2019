@@ -71,65 +71,79 @@ body h1{
 }
 
 .headGreeting{
-  background-image: url("./images/08-Wallpaper.png");
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,22,95,1.0);
+  border-top: 20px;
+  padding-bottom: 30px;
+
 }
 
 .headGreetingTitle h1{
-  font-weight: bold;
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255,255,255,1.0);
+  padding-bottom: 15px;
 }
 
 .headGreetingHead{
-  margin-left: -45px;
 }
 
 .headGreetingPhoto{
   text-align: center;
 }
 
-.headGreetingPhotoText{
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-
 .headGreetingPhotoText p{
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 17px;
 }
 
 .headGreetingText{
-  background-color: rgba(0,0,0,0.1);
-  padding: 10px 20px 5px 20px;
-  border-left: 25px;
 }
 
 .headGreetingText p{
+  color: rgba(255,255,255,1.0);
   font-size: 15px;
-  font-weight: bold;
+  font-weight: normal;
+}
+
+.eventsMain{
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .eventsTitle h1{
-  font-weight: bold;
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1.0);
+}
+
+.eventsIndContainer h2{
+  font-size: 45px;
+}
+
+.eventsIndTitle{
+  font-size: 21px;
+}
+.eventsIndLocation{
+  font-size: 15px;
+  margin-top: -10px;
 }
 
 .accessMain{
-  margin-bottom: 50px;
-  background-color: rgba(0,0,0,0.3);
-}
-
-.accessTitle{
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: rgba(0,22,95,1.0);
 }
 
 .accessTitle h1{
-  font-weight: bold;
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255,255,255,1.0);
+  padding-bottom: 10px;
 }
 
 .accessMap{
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .accessAddress{
