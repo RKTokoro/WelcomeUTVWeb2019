@@ -48,8 +48,10 @@
 
   <!-- Snowfall-->
   <div id="sakura">
-    <script type="text/javascript">
+    <script type="text/javascript" class="sakuraScript">
+    if(window.innerWidth > 768){
       $(document).snowfall({image :"./images/s_f_sakura_flower360.png", flakeCount:77, flakeIndex: -3, minSize: 10, maxSize:20, maxSpeed:3, minSpeed:0.5, shadow: false, round: true});
+    }
     </script>
 
   <section id="about">
