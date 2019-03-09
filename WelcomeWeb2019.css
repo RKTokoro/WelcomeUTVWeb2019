@@ -251,8 +251,12 @@ body h1{
   color: rgba(0,0,0,1.0);
 }
 
+.eventsList{
+ padding-left: 50px;
+}
+
 .eventsIndContainer h2{
-  font-size: 45px;
+  font-size: 37px;
 }
 
 .eventsIndTitle{
