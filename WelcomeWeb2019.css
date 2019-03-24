@@ -267,6 +267,41 @@ body h1{
   margin-top: -10px;
 }
 
+.yearofutvMain{
+  background-color: rgba(0,22,95,0.9);
+  border-top: 20px;
+  padding-bottom: 30px;
+}
+
+.yearofutvTitle h1{
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.yearofutvMain h2{
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 35px;
+}
+
+.yearofutvMain p{
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 35px;
+  margin-top: -10px;
+  padding-left: 55px;
+}
+
+
+.yearofutvContent{
+  padding-bottom: 10px;
+}
+
+.worksWorkPicture{
+  padding-top: 45px;
+}
+
 .accessMain{
   background-color: rgba(0,22,95,1.0);
 }
