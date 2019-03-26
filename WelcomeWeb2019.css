@@ -14,150 +14,7 @@ body h1{
 
 #sakura{
   width:100%;
-  height: 2500px;
-  position:absolute;
-  top:0px;
-  left:0px;
-  z-index: -1;
-}
-
-.about{
-  background-color: rgba(255,255,255,0.3);
-  margin-top: 40px;
-  background: linear-gradient(170deg, rgba(255,148,201,0.2) 0%, rgba(255,255,255,0.2) 50%, rgba(25,159,255,0.2) 100%);
-}
-
-.aboutBox{
-  position:relative;
-}
-
-.aboutImg{
-  opacity: 0.3;
-  position:absolute;
-  top:0%;
-  right:-50%;
-  max-width: auto;
-  height: 500px;
-}
-
-.aboutMain{
-  padding-top: 45px;
-  padding-bottom: 60px;
-}
-
-.aboutMain h1{
-  font-size: 50px;
-}
-
-.aboutParagraph{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.aboutButton{
-  padding-top:20px;
-}
-
-.headGreeting{
-  background-color: rgba(0,22,95,1.0);
-  border-top: 20px;
-  padding-bottom: 30px;
-
-}
-
-.headGreetingTitle h1{
-  text-align: center;
-  font-weight: normal;
-  font-size: 30px;
-  color: rgba(255,255,255,1.0);
-  padding-bottom: 15px;
-}
-
-.headGreetingHead{
-}
-
-.headGreetingPhoto{
-  text-align: center;
-}
-
-.headGreetingPhotoText p{
-  text-align: center;
-  font-weight: normal;
-  font-size: 17px;
-}
-
-.headGreetingText{
-}
-
-.headGreetingText p{
-  color: rgba(255,255,255,1.0);
-  font-size: 15px;
-  font-weight: normal;
-}
-
-.eventsMain{
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
-.eventsTitle h1{
-  text-align: center;
-  font-weight: normal;
-  font-size: 30px;
-  color: rgba(0,0,0,1.0);
-  margin-bottom:20px;
-}
-
-.eventsIndContainer h2{
-  font-size: 30px;
-}
-
-.eventsIndTitle{
-  font-size: 21px;
-}
-.eventsIndLocation{
-  font-size: 15px;
-  margin-top: -10px;
-}
-
-.accessMain{
-  background-color: rgba(0,22,95,1.0);
-}
-
-.accessTitle h1{
-  text-align: center;
-  font-weight: normal;
-  font-size: 30px;
-  color: rgba(255,255,255,1.0);
-  padding-bottom: 10px;
-}
-
-.accessMap{
-}
-
-.accessAddress{
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-}
-
-/* ↓PCレイアウト*/
-@media screen and (min-width: 769px){
-body {
-  padding-top: 50px;
-  /*background-color: rgba(0,0,0,0.2);*/
-  font-family: "Noto Sans JP", sans-serif;
-}
-
-body h1{
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  font-size: 45px;
-}
-
-#sakura{
-  width:100%;
-  height: 2150px;
+  height: 5000px;
   position:absolute;
   top:0px;
   left:0px;
@@ -251,12 +108,258 @@ body h1{
   color: rgba(0,0,0,1.0);
 }
 
+
 .eventsList{
  padding-left: 50px;
 }
 
 .eventsIndContainer h2{
-  font-size: 37px;
+  font-size: 30px;
+}
+
+.eventsIndTitle{
+  font-size: 21px;
+}
+.eventsIndLocation{
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.yearofutvMain{
+  background-color: rgba(0,22,95,0.9);
+  border-top: 20px;
+  padding-bottom: 30px;
+}
+
+.yearofutvTitle h1{
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.yearofutvMain h2{
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 35px;
+}
+
+.yearofutvMain h3{
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.yearofutvMain p{
+  padding-top: 10px;
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 15px;
+}
+
+
+.yearofutvContent{
+  padding-bottom: 10px;
+}
+
+.worksTitle h1{
+  color: rgba(0, 0, 0, 1.0);
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.worksWorkPicture{
+  padding-top: 10px;
+}
+
+.dailyActivityMain{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dailyActivityTitle h1{
+  color: rgba(0, 0, 0, 1.0);
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.dailyActivityContent{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dailyActivityContentText {
+  font-size: 17px;
+}
+
+.dailyActivityContentImage{
+  margin-top: 30px;
+}
+
+.accessMain{
+  background-color: rgba(0,22,95,1.0);
+}
+
+.accessTitle h1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255,255,255,1.0);
+  padding-bottom: 10px;
+}
+
+.accessMap{
+}
+
+.accessAddress{
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+.questionMain{
+  margin-bottom: 25px;
+}
+
+.questionTitle h1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1.0);
+  padding-bottom: 10px;
+}
+
+.footer{
+  background-color: rgba(0,22,95,1.0);
+}
+
+.footer p{
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+}
+}
+
+/* ↓PCレイアウト*/
+@media screen and (min-width: 769px){
+body {
+  padding-top: 50px;
+  /*background-color: rgba(0,0,0,0.2);*/
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#sakura{
+  width:100%;
+  height: 5650px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index: -1;
+}
+
+
+.about{
+  background-color: rgba(255,255,255,0.3);
+  margin-top: 40px;
+  background: linear-gradient(170deg, rgba(255,148,201,0.2) 0%, rgba(255,255,255,0.2) 50%, rgba(25,159,255,0.2) 100%);
+}
+
+.aboutBox{
+  position:relative;
+}
+
+.aboutImg{
+  opacity: 0.3;
+  position:absolute;
+  top:0%;
+  right:10%;
+  max-width: auto;
+  height: 500px;
+}
+
+.aboutMain{
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+
+.aboutMain h1{
+  font-size: 75px;
+}
+
+.aboutParagraph{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.aboutButton{
+  padding-top:20px;
+}
+
+.headGreeting{
+  background-color: rgba(0,22,95,1.0);
+  border-top: 20px;
+  padding-bottom: 30px;
+
+}
+
+.headGreetingTitle h1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255,255,255,1.0);
+  padding-bottom: 15px;
+}
+
+.headGreetingHead{
+}
+
+.headGreetingPhoto{
+  text-align: center;
+}
+
+.headGreetingPhotoText p{
+  text-align: center;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.headGreetingText{
+}
+
+.headGreetingText p{
+  color: rgba(255,255,255,1.0);
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.eventsMain{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.eventsTitle h1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(0,0,0,1.0);
+}
+
+
+.eventsList{
+ padding-left: 50px;
+}
+
+.eventsIndContainer h2{
+  font-size: 30px;
 }
 
 .eventsIndTitle{
@@ -286,11 +389,17 @@ body h1{
   font-size: 35px;
 }
 
-.yearofutvMain p{
+.yearofutvMain h3{
   color: rgba(255, 255, 255, 1.0);
-  font-size: 35px;
-  margin-top: -10px;
-  padding-left: 55px;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+.yearofutvMain p{
+  padding-top: 30px;
+  padding-left: 15px;
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 15px;
 }
 
 
@@ -298,8 +407,42 @@ body h1{
   padding-bottom: 10px;
 }
 
+.worksTitle h1{
+  color: rgba(0, 0, 0, 1.0);
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
 .worksWorkPicture{
   padding-top: 45px;
+}
+
+.dailyActivityMain{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.dailyActivityTitle h1{
+  color: rgba(0, 0, 0, 1.0);
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.dailyActivityContent{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dailyActivityContentText {
+  font-size: 17px;
+}
+
+.dailyActivityContentImage{
+  margin-top: 30px;
 }
 
 .accessMain{
@@ -323,13 +466,23 @@ body h1{
 
 }
 
-.questionMain h1{
+.questionMain{
+  margin-bottom: 25px;
+}
+
+.questionTitle h1{
   text-align: center;
   font-weight: normal;
   font-size: 30px;
   color: rgba(0,0,0,1.0);
   padding-bottom: 10px;
 }
+
 .footer{
   background-color: rgba(0,22,95,1.0);
+}
+
+.footer p{
+  color: rgba(255, 255, 255, 1.0);
+  text-align: center;
 }
