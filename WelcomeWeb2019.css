@@ -117,6 +117,10 @@ body h1{
   font-size: 30px;
 }
 
+.eventsIndContainer h4{
+  padding-left: 15px;
+}
+
 .eventsIndTitle{
   font-size: 21px;
 }
